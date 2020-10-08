@@ -1,8 +1,8 @@
 package com.ronn.sbreferencearchitecture.company.infrastructure.persistence.mapper;
 
-import com.ronn.sbreferencearchitecture.shared.util.UUIDUtils;
 import com.ronn.sbreferencearchitecture.company.domain.model.Company;
 import com.ronn.sbreferencearchitecture.company.infrastructure.persistence.model.CompanyDTO;
+import com.ronn.sbreferencearchitecture.shared.util.UUIDUtils;
 
 import java.util.Collections;
 import java.util.List;
