@@ -19,12 +19,12 @@ public class EmployeeFinderImpl implements EmployeeFinder {
   }
 
   @Override
-  public Optional<Employee> findEmployee(UUID id) {
+  public Optional<Employee> find(UUID id) {
     return companyRepo.findEmployee(id);
   }
 
   @Override
-  public List<Employee> getAllEmployees(int page, int size) {
+  public List<Employee> getAll(int page, int size) {
     return companyRepo.getAllEmployees(page, size);
   }
 }
