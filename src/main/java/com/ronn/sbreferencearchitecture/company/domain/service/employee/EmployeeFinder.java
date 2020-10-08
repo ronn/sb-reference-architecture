@@ -8,7 +8,7 @@ import java.util.UUID;
 
 public interface EmployeeFinder {
 
-  Optional<Employee> findEmployee(UUID id);
+  Optional<Employee> find(UUID id);
 
-  List<Employee> getAllEmployees(int page, int size);
+  List<Employee> getAll(int page, int size);
 }
